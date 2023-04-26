@@ -326,14 +326,15 @@ a:hover {
 }
 
 #top .btn-download-cv {
+  font-weight: 700;
   margin: 10px 0;
   letter-spacing: 1px;
   font-size: 16px;
   padding: 10px 20px;
   border-radius: 50px;
   transition: 0.5s;
-  color: #F1FAEE;
-  background: #457B9D;
+  color: #1D3557;
+  background: #F1FAEE;
 }
 
 #top .btn-download-cv:hover {
@@ -658,8 +659,12 @@ section {
   background: #F1FAEE;
 }
 
-.software-project .card-body .bi {
+.software-project .card-body .bi-youtube {
   color: #FF0000;
+}
+
+.software-project .card-body .bi-github {
+  color: #120D33;
 }
 
 /*--------------------------------------------------------------
