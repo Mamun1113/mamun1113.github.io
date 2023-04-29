@@ -1,6 +1,7 @@
 <!-- This is portfolio website of Mamun1113 -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,13 +16,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
-
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
 
   <!-- extra CSS Files -->
   <link href="assets/extra/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -32,8 +28,11 @@
   <!-- Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <!-- extra JS Files -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
   <!-- Main JS File -->
-  <link href="assets/js/script.js" rel="script">
+  <script src="assets/js/script.js"></script>
 
 </head>
 
@@ -44,73 +43,73 @@
     <div class="container d-flex align-items-center justify-content-between">
 
       <div class="logo">
-        <h1><a href="index.html" class="top-link">MAMUN</a></h1>
+        <h1><a href="#" class="top-link">MAMUN</a></h1>
       </div>
 
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#top">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#education">Education</a></li>
-          <li><a class="nav-link scrollto " href="#participation">Participations</a></li>
-          <li><a class="nav-link scrollto " href="#software-project">Software Projects</a></li>
-          <li><a class="nav-link scrollto" href="#computer-skills">Computer Skills</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+      <nav class="navbar navbar-expand-lg">
+
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="navbar-toggler-icon"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item home-nav active"><a class="nav-link" href="#">Home</a></li>
+              <li class="nav-item education-nav"><a class="nav-link" href="#education">Education</a></li>
+              <li class="nav-item participation-nav"><a class="nav-link" href="#participation">Participation</a></li>
+              <li class="nav-item software-project-nav"><a class="nav-link" href="#software-project">Software
+                  Projects</a></li>
+              <li class="nav-item computer-skill-nav"><a class="nav-link" href="#computer-skill">Computer Skills</a>
+              </li>
+              <li class="nav-item achievement-nav"><a class="nav-link" href="#achievement">Achievement</a></li>
+              <li class="nav-item extra-nav"><a class="nav-link" href="#extra">Extra</a></li>
+              <li class="nav-item faq-nav"><a class="nav-link" href="#faq">FAQ</a></li>
+              <li class="nav-item contact-nav"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
   </header>
   <!-- End Header -->
 
-  <!-- ======= Top Section ======= -->
-  <section id="top" class="d-flex align-items-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h2>Hi, I'm</h2>
-          <h1 class="full-name">Abdullah Al Mamun</h1>
-          <h2>Studying Bachelor of Science <br> in Computer Science & Engineering</h2>
-          <a href="" class="btn-download-cv">Download CV</a>
-        </div>
-        <div class="col-lg-2 order-1 order-lg-2 top-img ">
-          <img src="assets/images/Mamun.jpg" alt="Abdullah Al Mamun">
-        </div>
-        <div class="col-lg-5 order-3 order-lg-3 d-flex flex-column justify-content-center side-links">
-          <ul>
-            <li><a href="https://www.linkedin.com/in/mamun1113/" class="linkedin" target="_blank">Linked in <img src="assets/images/linkedin.png"></a></li>
-            <li><a href="https://github.com/Mamun1113" class="github" target="_blank">GitHub <img src="assets/images/github.png"></a></li>
-            <li><a href="https://itch.io/profile/mamun1113" class="itch-io" target="_blank">Itch <img src="assets/images/itch-io.png"></a></li>
-            <li><a href="https://play.google.com/store/apps/developer?id=Mamun1113" class="play-store" target="_blank">Play Store <img src="assets/images/google-play.png"></a></li>
-            <li><a href="https://www.youtube.com/@Mamun-1113/" class="youtube" target="_blank">Youtube <img src="assets/images/youtube.png"></a></li>
-            <li><a href="https://www.facebook.com/profile.php?id=100010681052248" class="facebook" target="_blank">Facebook <img src="assets/images/facebook.png"></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End top -->
-
   <main id="main">
-    <div id="includedContent"></div>
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
+    <!-- ======= Home Section ======= -->
+    <section id="home" class="d-flex align-items-center">
+      <h5 class="tst"></h5>
       <div class="container">
-
-        <div class="section-title">
-          <h2>About Me</h2>
+        <div class="row">
+          <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            <h2>Hi, I'm</h2>
+            <h1 class="full-name">Abdullah Al Mamun</h1>
+            <h2>Studying Bachelor of Science <br> in Computer Science & Engineering</h2>
+            <a href="assets/downloads/Abdullah Al Mamun's CV.pdf" class="btn-download-cv" target="_blank">Download
+              CV</a>
+          </div>
+          <div class="col-lg-2 order-1 order-lg-2 home-img">
+            <img src="assets/images/Mamun.png" alt="Abdullah Al Mamun">
+          </div>
+          <div class="col-lg-5 order-3 order-lg-3 d-flex flex-column justify-content-center side-links">
+            <ul>
+              <li><a href="https://www.linkedin.com/in/mamun1113/" class="linkedin" target="_blank">Linked in <img
+                    src="assets/images/linkedin.png"></a></li>
+              <li><a href="https://github.com/Mamun1113" class="github" target="_blank">GitHub <img
+                    src="assets/images/github.png"></a></li>
+              <li><a href="https://itch.io/profile/mamun1113" class="itch-io" target="_blank">Itch <img
+                    src="assets/images/itch-io.png"></a></li>
+              <li><a href="https://play.google.com/store/apps/developer?id=Mamun1113" class="play-store"
+                  target="_blank">Play Store <img src="assets/images/google-play.png"></a></li>
+              <li><a href="https://www.youtube.com/@Mamun-1113/" class="youtube" target="_blank">Youtube <img
+                    src="assets/images/youtube.png"></a></li>
+              <li><a href="https://www.facebook.com/profile.php?id=100010681052248" class="facebook"
+                  target="_blank">Facebook <img src="assets/images/facebook.png"></a></li>
+            </ul>
+          </div>
         </div>
-
-        <div class="row content">
-          <div>
-            <p>
-              I have completed my secondary and higher secondary with a good result. Currently I am studying BSc. in CSE in a well-known university in Bangladesh.
-            </p>
-        </div>
-
       </div>
     </section>
-    <!-- End about Section -->
+    <!-- End Home section -->
 
     <!-- ======= Education Section ======= -->
     <section id="education" class="education">
@@ -118,163 +117,159 @@
 
         <div class="section-title">
           <h2>Educational Qualification</h2>
-          <p>Here are my institutional qualifications</p>
         </div>
 
         <div class="row">
-
-          <div class="col-lg-4 col-md-6 mt-4">
-            <div class="box recommended">
-              <h3>Currently studying</h3>
-              <h4>BSc. in CSE</h4>
-              <ul>
-                <li>Student of 4<sup>th</sup> year 2<sup>nd</sup> semester </li>
-                <li>2019 - to date</li>
-                <li><b>Ahsanullah University of Science & Technology</b></li>
-                <li>Tejgaon, Dhaka</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mt-4">
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
             <div class="box">
-              <h3>Passed</h3>
-              <h4>HSC</h4>
-              <ul>
-                <li>From Science with GPA <b>5.00 out of 5.00</b></li>
-                <li>Studied class 11 & 12 from 2016 to 2018</li>
-                <li><b>Notre Dame College</b></li>
-                <li>Motijheel, Dhaka</li>
-              </ul>
+              <h6>Currently studying</h6>
+              <h3>BSc. in CSE</h3>
+              <p>
+                Student of 4<sup>th</sup> year 2<sup>nd</sup> semester
+                <br>2019 - to date
+                <br><b>Ahsanullah University of Science & Technology</b>
+                <br>Tejgaon, Dhaka
+              </p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 mt-4">
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
             <div class="box">
-              <h3>Passed</h3>
-              <h4>SSC</h4>
-              <ul>
-                <li>From Science with GPA <b>5.00 out of 5.00</b></li>
-                <li>Studied class 3 to 10 from 2008 to 2016</li>
-                <li><b>Ideal School & College</b></li>
-                <li>Motijheel, Dhaka</li>
-              </ul>
+              <h6>Completed</h6>
+              <h3>HSC</h3>
+              <p>
+                From Science with GPA <b>5.00 out of 5.00</b>
+                <br>Studied class 11 & 12 from 2016 to 2018
+                <br><b>Notre Dame College</b>
+                <br>Motijheel, Dhaka
+              </p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 mt-4">
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
             <div class="box">
-              <h3>Passed</h3>
-              <h4>JSC</h4>
-              <ul>
-                <li>Secured GPA <b>5.00 out of 5.00</b></li>
-                <li>Studied class 3 to 10 from 2008 to 2016</li>
-                <li><b>Ideal School & College</b></li>
-                <li>Motijheel, Dhaka</li>
-              </ul>
+              <h6>Completed</h6>
+              <h3>SSC</h3>
+              <p>
+                From Science with GPA <b>5.00 out of 5.00</b>
+                <br>Studied class 3 to 10 from 2008 to 2016
+                <br><b>Ideal School & College</b>
+                <br>Motijheel, Dhaka
+              </p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 mt-4">
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
             <div class="box">
-              <h3>Passed</h3>
-              <h4>PECE</h4>
-              <ul>
-                <li>Secured GPA <b>5.00 out of 5.00</b></li>
-                <li>Studied class 3 to 10 from 2008 to 2016</li>
-                <li><b>Ideal School & College</b></li>
-                <li>Motijheel, Dhaka</li>
-              </ul>
+              <h6>Completed</h6>
+              <h3>JSC</h3>
+              <p>
+                Secured GPA <b>5.00 out of 5.00</b>
+                <br>Studied class 3 to 10 from 2008 to 2016
+                <br><b>Ideal School & College</b>
+                <br>Motijheel, Dhaka
+              </p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 mt-4">
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
             <div class="box">
-              <h3></h3>
-              <h4>Others</h4>
-              <ul>
-                <li>Studied preliminary classes to class 2</li>
-                <li>From 2004 to 2007</li>
-                <li><b>K.A.H Kinder Garten</b></li>
-                <li>Dhaka, Bangladesh</li>
-              </ul>
+              <h6>Completed</h6>
+              <h3>PECE</h3>
+              <p>
+                Secured GPA <b>5.00 out of 5.00</b>
+                <br>Studied class 3 to 10 from 2008 to 2016
+                <br><b>Ideal School & College</b>
+                <br>Motijheel, Dhaka
+              </p>
             </div>
           </div>
 
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div class="box">
+              <h6>Completed</h6>
+              <h3>Others</h3>
+              <p>
+                Studied preliminary classes to class 2
+                <br>From 2004 to 2007
+                <br><b>K.A.H Kinder Garten</b>
+                <br>Dhaka, Bangladesh
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
     <!-- End education Section -->
-    
+
     <!-- ======= Participation Section ======= -->
     <section id="participation" class="participation">
       <div class="container">
 
         <div class="section-title">
-          <h2>Participation & Achievements</h2>
-          <p>Following are the academic education related participation & achievements</p>
+          <h2>Participation</h2>
         </div>
 
-        <div class="row mt-2">
-          <div class="col-md-6 col-lg-3 mb-5 mt-2 mb-lg-0">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
             <div class="icon-box">
               <div class="icon"><i class="ri-check-double-line"></i></div>
-              <h4 class="title"><a href="">Programming Contest</a></h4>
-              <p class="description"><b>Participation: 2019-09-01</b><br>Intra AUST Programming Contest - Codeware 19. Organized by AUST.</p>
+              <h4>Programming Contest</h4>
+              <p><b>Participation: 2019-09-01</b><br>Intra AUST Programming Contest - Codeware 19. Organized by AUST.
+              </p>
+              <br>
+              <a href="assets/downloads/20190901 Intra AUST Programming Contest - Codeware 19.jpg" target="_blank">View
+                certificate</a>
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
-            <div class="icon-box">
-              <div class="icon"><i class="ri-magic-line"></i></div>
-              <h4 class="title"><a href="">Google IT Support Course</a></h4>
-              <p class="description"><b>Achievement: 2020-06-05</b><br>Successfully completed the online, non-credit Professional Certificate.
-              This certificate includes 5 courses:<br>
-              1. Technical Support Fundamentals<br>
-              2.The Bits and Bytes of Computer Networking<br>
-              3. Operating Systems and You: Becoming a Power User<br>
-              4. System Administration and IT Infrastructure Services<br>
-              5. IT Security: Defense against the digital dark arts</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+          <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
             <div class="icon-box">
               <div class="icon"><i class="ri-check-double-line"></i></div>
-              <h4 class="title"><a href="">Software Exhibition</a></h4>
-              <p class="description"><b>Participation: 2022-06-23</b><br>Intra AUST Software Exhibition - Codefiesta 22. Organized by AUST.</p>
+              <h4>Software Exhibition</h4>
+              <p><b>Participation: 2022-06-23</b><br>Intra AUST Software Exhibition - Codefiesta 22. Organized by AUST.
+              </p>
+              <br>
+              <a href="assets/downloads/20220623 Intra AUST Software Exhibition - Codefiesta 22.jpg"
+                target="_blank">View certificate</a>
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-3 mb-5  mb-lg-0">
+          <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
             <div class="icon-box">
               <div class="icon"><i class="ri-check-double-line"></i></div>
-              <h4 class="title"><a href="">Cyber Security Bootcamp</a></h4>
-              <p class="description"><b>Participation: 2022-07-08</b><br>Cyber security online bootcamp. Organized by Skillogic.</p>
+              <h4>Cyber Security Bootcamp</h4>
+              <p><b>Participation: 2022-07-08</b><br>Cyber security online bootcamp. Organized by Skillogic.</p>
+              <br>
+              <a href="assets/downloads/20220708 Cyber Security Bootcamp by Skillogic.jpg" target="_blank">View
+                certificate</a>
             </div>
           </div>
 
+          <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+            <div class="icon-box">
+              <div class="icon"><i class="ri-check-double-line"></i></div>
+              <h4>Programming Contest</h4>
+              <p><b>Participation: 2022-08-11</b><br>Intra AUST Programming Contest - Codeclash 21. Organized by AUST.
+              </p>
+              <br>
+              <a href="assets/downloads/20220811 Intra AUST Programming Contest - Codeclash 21.jpg" target="_blank">View
+                certificate</a>
+            </div>
+          </div>
         </div>
 
-        <div class="row mt-2">
-          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
             <div class="icon-box">
               <div class="icon"><i class="ri-check-double-line"></i></div>
-              <h4 class="title"><a href="">Programming Contest</a></h4>
-              <p class="description"><b>Participation: 2022-08-11</b><br>Intra AUST Programming Contest - Codeclash 21. Organized by AUST.</p>
+              <h4>Cyber Security</h4>
+              <p><b>Participation: 2022-10-13</b><br>Cyber Security Awareness. Organized by BTRC & CCAF.</p>
+              <br>
+              <a href="assets/downloads/20221013 Cyber Security Awareness.jpg" target="_blank">View certificate</a>
             </div>
           </div>
-
-          <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
-            <div class="icon-box">
-              <div class="icon"><i class="ri-check-double-line"></i></div>
-              <h4 class="title"><a href="">Cyber Security</a></h4>
-              <p class="description"><b>Participation: 2022-10-13</b><br>Cyber Security Awareness. Organized by BTRC & CCAF.</p>
-            </div>
-          </div>
-
         </div>
-
       </div>
     </section><!-- End participation Section -->
 
@@ -283,213 +278,283 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Software Projects</h2>
-          <p>Followings are the software development projects I have developed or worked with</p>
+          <h2>Academic Software Projects</h2>
         </div>
 
-        <div class="row mt-2">
-          <div class="col-md-6">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div class="card" style='background-image: url("assets/images/car-mania.png");'>
               <div class="card-body">
-                <h5 class="card-title"><a href="">Car-Mania</a></h5>
-                <p class="card-text">C, iGraphics based car game.</p>
-                <a href="https://youtu.be/o1QV_ZY6LzA" class="youtube" target="_blank"><i class="bi bi-youtube"></i> Watch demo</a>
+                <h3>Car-Mania</h3>
+                <p>C, iGraphics based car game.</p>
+                <a href="https://youtu.be/o1QV_ZY6LzA" target="_blank"><i class="bi bi-youtube"></i> Watch demo</a>
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="https://github.com/Mamun1113/Car-Mania" class="github" target="_blank"><i class="bi bi-github"></i> View code</a>
+                <a href="https://github.com/Mamun1113/Car-Mania" target="_blank"><i class="bi bi-github"></i> View
+                  code</a>
               </div>
             </div>
           </div>
-          <div class="col-md-6 mt-4 mt-md-0">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div class="card" style='background-image: url("assets/images/sm-tours.png");'>
               <div class="card-body">
-                <h5 class="card-title"><a href="">SM-Tours</a></h5>
-                <p class="card-text">Java language based android application for tour management</p>
-                <a href="https://youtu.be/laZVAxx7D0M" class="youtube" target="_blank"><i class="bi bi-youtube"></i> Watch demo</a>
+                <h3>SM-Tours</h3>
+                <p>Java language based android application for tour management</p>
+                <a href="https://youtu.be/laZVAxx7D0M" class="youtube" target="_blank"><i class="bi bi-youtube"></i>
+                  Watch demo</a>
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="https://github.com/Mamun1113/SM-Tours" class="github" target="_blank"><i class="bi bi-github"></i> View code</a>
+                <a href="https://github.com/Mamun1113/SM-Tours" class="github" target="_blank"><i
+                    class="bi bi-github"></i> View code</a>
               </div>
             </div>
           </div>
-          <div class="col-md-6 mt-4">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div class="card" style='background-image: url("assets/images/medimart.png");'>
               <div class="card-body">
-                <h5 class="card-title"><a href="">Medimart</a></h5>
-                <p class="card-text">Java, Java Swing based desktop application for pharmacy management.</p>
-                <a href="https://youtu.be/H_bJ2zFkHp4" class="youtube" target="_blank"><i class="bi bi-youtube"></i> Watch demo</a>
+                <h3>Medimart</h3>
+                <p>Java, Java Swing based desktop application for pharmacy management.</p>
+                <a href="https://youtu.be/H_bJ2zFkHp4" class="youtube" target="_blank"><i class="bi bi-youtube"></i>
+                  Watch demo</a>
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="https://github.com/Mamun1113/Medimart" class="github" target="_blank"><i class="bi bi-github"></i> View code</a>
+                <a href="https://github.com/Mamun1113/Medimart" class="github" target="_blank"><i
+                    class="bi bi-github"></i> View code</a>
               </div>
             </div>
           </div>
-          <div class="col-md-6 mt-4">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div class="card" style='background-image: url("assets/images/nextgen-hospital-management-hub.png");'>
               <div class="card-body">
-                <h5 class="card-title"><a href="">NextGen-Hospital-Management-Hub</a></h5>
-                <p class="card-text">Java, Java Swing based application for doctor’s and patient’s serial management.</p>
-                <a href="https://youtu.be/XpuZyGGBjrk" class="youtube" target="_blank"><i class="bi bi-youtube"></i> Watch demo</a>
+                <h3>NextGen-Hospital-Management-Hub</h3>
+                <p>Java, Java Swing based application for doctor's and patient's serial management.</p>
+                <a href="https://youtu.be/XpuZyGGBjrk" class="youtube" target="_blank"><i class="bi bi-youtube"></i>
+                  Watch demo</a>
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="https://github.com/Mamun1113/NextGen-Hospital-Management-Hub" class="github" target="_blank"><i class="bi bi-github"></i> View code</a>
+                <a href="https://github.com/Mamun1113/NextGen-Hospital-Management-Hub" class="github" target="_blank"><i
+                    class="bi bi-github"></i> View code</a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="row mt-2">
-          <div class="col-md-6">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div class="card" style='background-image: url("assets/images/e-library.png");'>
               <div class="card-body">
-                <h5 class="card-title"><a href="">E-Library</a></h5>
-                <p class="card-text">PHP based  website development for online book sell.</p>
-                <a href="#" class="youtube" target="_blank"><i class="bi bi-youtube"> [will be updated soon]</i> </a>
+                <h3>E-Library</h3>
+                <p>PHP based website development for online book sell.</p>
+                <i class="bi bi-youtube"></i> [will be updated soon]
                 &nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="#" class="github" target="_blank"><i class="bi bi-github"></i> View code</a>
               </div>
             </div>
           </div>
-          <div class="col-md-6 mt-4 mt-md-0">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div class="card" style='background-image: url("assets/images/alaska-express.png");'>
               <div class="card-body">
-                <h5 class="card-title"><a href="">AlaskaExpress</a></h5>
-                <p class="card-text">Java, C#, MVC based web application for bus management.</p>
-                <a href="#" class="youtube" target="_blank"><i class="bi bi-youtube"> [will be updated soon]</i> </a>
+                <h3>AlaskaExpress</h3>
+                <p>Java, C#, MVC based web application for bus management.</p>
+                <i class="bi bi-youtube"></i> [will be updated soon]
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="https://github.com/Mamun1113/AlaskaExpress" class="github" target="_blank"><i class="bi bi-github"></i> View code</a>
+                <a href="https://github.com/Mamun1113/AlaskaExpress" class="github" target="_blank"><i
+                    class="bi bi-github"></i> View code</a>
               </div>
             </div>
           </div>
         </div>
-
       </div>
     </section><!-- End Software project Section -->
 
     <!-- ======= Computer-skills Section ======= -->
-    <section id="computer-skills" class="computer-skills">
+    <section id="computer-skill" class="computer-skill">
       <div class="container">
 
         <div class="section-title">
           <h2>Computer Skills</h2>
-          <p>Here is what I have used or worked with during software development projects</p>
         </div>
 
         <div class="row">
-          <div class="col-lg-3 col-md-4 mt-2">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
             <div class="icon-box">
               <i class="ri-file-word-2-line" style="color: #2b579a;"></i>
-              <h3><a href="">Microsoft Word</a></h3>
+              <h5>Microsoft Word</h5>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 mt-2">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
             <div class="icon-box">
               <i class="ri-file-excel-2-line" style="color: #217346;"></i>
-              <h3><a href="">Microsoft Excel</a></h3>
+              <h5>Microsoft Excel</h5>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 mt-2">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
             <div class="icon-box">
               <i class="ri-file-ppt-2-line" style="color: #d24726;"></i>
-              <h3><a href="">Microsoft Powerpoint</a></h3>
+              <h5>Microsoft Powerpoint</h5>
             </div>
           </div>
           <hr>
-          <div class="col-lg-3 col-md-4 mt-2">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
             <div class="icon-box">
               <i class="ri-image-edit-line" style="color: #40D0FB;"></i>
-              <h3><a href="">Adobe Photoshop</a></h3>
+              <h5>Adobe Photoshop</h5>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 mt-2">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
             <div class="icon-box">
               <i class="ri-artboard-line" style="color: #F67B2B;"></i>
-              <h3><a href="">Adobe Illustrator</a></h3>
+              <h5>Adobe Illustrator</h5>
             </div>
           </div>
           <hr>
-          <div class="col-lg-3 col-md-4 mt-2">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
             <div class="icon-box">
               <i class="ri-code-line" style="color: #00ff80;"></i>
-              <h3><a href="">C language</a></h3>
+              <h5>C language</h5>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 mt-2">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
             <div class="icon-box">
               <i class="ri-code-line" style="color: #00ff80;"></i>
-              <h3><a href="">C++ language</a></h3>
+              <h5>C++ language</h5>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 mt-2">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
             <div class="icon-box">
               <i class="ri-code-line" style="color: #00ff80;"></i>
-              <h3><a href="">C# language (basic)</a></h3>
+              <h5>C# language (basic)</h5>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 mt-2">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
             <div class="icon-box">
               <i class="ri-code-line" style="color: #00ff80;"></i>
-              <h3><a href="">JAVA language</a></h3>
+              <h5>JAVA language</h5>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 mt-2">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
             <div class="icon-box">
               <i class="ri-code-line" style="color: #00ff80;"></i>
-              <h3><a href="">PHP language (basic)</a></h3>
+              <h5>PHP language (basic)</h5>
             </div>
           </div>
           <hr>
-          <div class="col-lg-3 col-md-4 mt-2">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
             <div class="icon-box">
               <i class="ri-code-s-slash-fill" style="color: #ffb700;"></i>
-              <h3><a href="">HTML</a></h3>
+              <h5>HTML</h5>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 mt-2">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
             <div class="icon-box">
               <i class="ri-code-s-slash-fill" style="color: #ffb700;"></i>
-              <h3><a href="">CSS</a></h3>
+              <h5>CSS</h5>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 mt-2">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
             <div class="icon-box">
               <i class="ri-code-s-slash-fill" style="color: #ffb700;"></i>
-              <h3><a href="">Bootstrap</a></h3>
+              <h5>Bootstrap</h5>
             </div>
           </div>
           <hr>
-          <div class="col-lg-3 col-md-4 mt-2">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
             <div class="icon-box">
               <i class="ri-database-2-line" style="color: #ea00ff;"></i>
-              <h3><a href="">MySQL</a></h3>
+              <h5>MySQL</h5>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 mt-2">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
             <div class="icon-box">
               <i class="ri-database-2-line" style="color: #ea00ff;"></i>
-              <h3><a href="">MSSQL</a></h3>
+              <h5>MSSQL</h5>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 mt-2">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
             <div class="icon-box">
               <i class="ri-database-2-line" style="color: #ea00ff;"></i>
-              <h3><a href="">Firebase</a></h3>
+              <h5>Firebase</h5>
             </div>
           </div>
           <hr>
-          <div class="col-lg-3 col-md-4 mt-2">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
             <div class="icon-box">
               <i class="ri-terminal-window-fill" style="color: #ff2f00;"></i>
-              <h3><a href="">MVC framework</a></h3>
+              <h5>MVC framework</h5>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 mt-2">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
             <div class="icon-box">
               <i class="ri-terminal-window-fill" style="color: #ff2f00;"></i>
-              <h3><a href="">JAVA Swing framework</a></h3>
+              <h5>JAVA Swing framework</h5>
             </div>
           </div>
           <hr>
         </div>
+      </div>
+    </section><!-- End computer-skill Section -->
+
+    <!-- ======= Achievement Section ======= -->
+    <section id="achievement" class="achievement">
+      <div class="container">
+        <div class="section-title">
+          <h2>Achievements</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="box">
+              <h3>HSC scholarship</h3>
+              <p>General category - 2018 <br> Board of Intermediate and Secondary Education, Dhaka</p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="box">
+              <h3>SSC scholarship</h3>
+              <p>General category - 2016 <br> Board of Intermediate and Secondary Education, Dhaka</p>
+            </div>
+          </div>
+        </div>
 
       </div>
-    </section><!-- End computer-skills Section -->
+    </section><!-- End Achievement Section -->
+
+    <!-- ======= Extra Section ======= -->
+    <section id="extra" class="extra">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Extra</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="icon-box">
+              <div class="icon"><i class="ri-magic-line"></i></div>
+              <h4>Google IT Support Course</h4>
+              <p><b>Achievement: 2020-06-05</b>
+                <br>
+                <a href="https://coursera.org/share/127002d59d3602fbe1154d1bad40ea6a" target="_blank">Check
+                  certificate</a>
+              </p>
+              <p>Successfully completed the online, non-credit professional certificate course designed by Google.</p>
+              <ul>
+                This combine course includes 5 courses:
+                <li>Technical Support Fundamentals <a href="https://coursera.org/share/1de548c85b7afae60c48704dce5fa925"
+                    target="_blank">Check certificate</a></li>
+                <li>The Bits and Bytes of Computer Networking <a
+                    href="https://coursera.org/share/578af427d3c38cf45bc0f71ad7efeee3" target="_blank">Check
+                    certificate</a></li>
+                <li>Operating Systems and You: Becoming a Power User <a
+                    href="https://coursera.org/share/c2fadfe93d95d93fee1b5c68d98830ec" target="_blank">Check
+                    certificate</a></li>
+                <li>System Administration and IT Infrastructure Services <a
+                    href="https://coursera.org/share/b7645388698e8f7d24a86bb47b48e0f7" target="_blank">Check
+                    certificate</a></li>
+                <li>IT Security: Defense against the digital dark arts <a
+                    href="https://coursera.org/share/c319a5f3007eadd9aa25c301378b1d22" target="_blank">Check
+                    certificate</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </section><!-- End Extra Section -->
 
     <!-- ======= F.A.Q Section ======= -->
     <section id="faq" class="faq">
@@ -500,26 +565,24 @@
         </div>
 
         <div class="row faq-item">
-          <div class="col-lg-5">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <i class="ri-question-line"></i>
-            <h4>Is this a company website?</h4>
+            <h5>Is this a company website?</h5>
           </div>
-          <div class="col-lg-7">
-            <p>
-              No. This is a personal portfolio website.
-            </p>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <i class="ri-check-double-line"></i>
+            <h5>No. This is a personal portfolio website.</h5>
           </div>
         </div><!-- End F.A.Q Item-->
 
         <div class="row faq-item">
-          <div class="col-lg-5">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <i class="ri-question-line"></i>
-            <h4>What is the motto of this website?</h4>
+            <h5>What is the motto of this website?</h5>
           </div>
-          <div class="col-lg-7">
-            <p>
-              To let you know about my skills and experiences.
-            </p>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <i class="ri-check-double-line"></i>
+            <h5>To let you know about my skills and experiences.</h5>
           </div>
         </div><!-- End F.A.Q Item-->
 
@@ -536,35 +599,15 @@
 
         <div class="row">
 
-          <div class="col-lg-4 col-md-6">
-            <div class="contact-aboutold">
-              <h3>Hey there</h3>
-              <p>If you have any kind of query, suggestion or wanna say something- feel free to contact.</p>
-            </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <h3>Hey there !</h3>
+            <p>If you have any kind of query, suggestion or wanna say something- <br> ...feel free to contact.</p>
           </div>
 
-          <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
-            <div class="info">
-              <div>
-                <i class="ri-map-pin-line"></i>
-                <p>Dhaka, Bangladesh</p>
-              </div>
-
-              <div>
-                <i class="ri-mail-send-line"></i>
-                <p>[will be updated soon]</p>
-              </div>
-
-              <div>
-                <i class="ri-phone-line"></i>
-                <p>[will be updated soon]</p>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="col-lg-5 col-md-12">
-            <form action="" method="post" role="form" class="php-email-form">
+          <!-- message send-->
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <form action="https://formspree.io/f/meqwnjgg" method="POST" class="php-email-form">
+              <!--<form onsubmit="sendEmail(); reset(); return false;" class="php-email-form">-->
               <div class="form-group">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
               </div>
@@ -577,39 +620,34 @@
               <div class="form-group">
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message [Service will be available soon]</button></div>
+
+              <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
           </div>
-
         </div>
-
       </div>
     </section><!-- End Contact Section -->
-
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
       <div class="row d-flex align-items-center">
-        <div class="col-lg-6 text-lg-left text-center">
+        <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 text-lg-left text-center">
           <div class="copyright">
             &copy; Copyright <strong>MAMUN</strong>. All Rights Reserved
           </div>
         </div>
-        <div class="col-lg-6">
-          <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">            
-            <a class="scrollto" href="#top">Home</a>
-            <a class="scrollto" href="#about">About</a>
+        <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12 text-lg-right text-center">
+          <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
+            <a class="scrollto" href="#home">Home</a>
             <a class="scrollto" href="#education">Education</a>
-            <a class="scrollto" href="#participation">Participations</a>
+            <a class="scrollto" href="#participation">Participation</a>
             <a class="scrollto" href="#software-project">Software Projects</a>
-            <a class="scrollto" href="#computer-skills">Computer Skills</a>
+            <a class="scrollto" href="#computer-skill">Computer Skills</a>
+            <a class="scrollto" href="#achievement">Achievement</a>
+            <a class="scrollto" href="#extra">Extra</a>
+            <a class="scrollto" href="#faq">FAQ</a>
             <a class="scrollto" href="#contact">Contact</a>
           </nav>
         </div>
@@ -617,10 +655,13 @@
     </div>
   </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
   <!-- extra JS Files -->
   <script src="assets/extra/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/script.js"></script>
 
 </body>
+
 </html>
