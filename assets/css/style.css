@@ -348,7 +348,7 @@ section {
 # Software Project
 --------------------------------------------------------------*/
 .software-project {
-  background-color: #ead6d6;
+  background-color: #f2ece1;
 }
 
 .software-project h3 {
@@ -367,7 +367,7 @@ section {
 
 .software-project .card-body {
   z-index: 10;
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 255, 255, 1);
   padding: 10px 10px;
   box-shadow: 0px 2px 15px rgba(0, 50, 0, 0.5);
   transition: 0.3s;
@@ -381,6 +381,10 @@ section {
 
 .software-project .card-body .bi-github {
   color: #120d33;
+}
+
+.software-project .card-body .bi-download {
+  color: #07eb1e;
 }
 
 /*--------------------------------------------------------------
@@ -434,7 +438,7 @@ section {
 # extra
 --------------------------------------------------------------*/
 .extra {
-  background-color: #cbe3d9;
+  background-color: #ead6d6;
 }
 
 .extra .icon-box {
@@ -519,7 +523,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-  background-color: #f2ece1;
+  background-color: #cbe3d9;
 }
 
 .contact h3 {
