@@ -532,20 +532,18 @@ section {
   color: #36a18b;
 }
 
+.contact h4 {
+  text-align: center;
+  font-weight: bold;
+  color: #36a18b;
+}
+
 .contact p {
   text-align: start;
 }
 
-.contact .php-email-form .form-group {
-  margin-bottom: 20px;
-}
-
-.contact .php-email-form input,
-.contact .php-email-form textarea {
-  border-radius: 10px;
-}
-
-.contact .php-email-form button[type="submit"] {
+.contact .mail-text {
+  text-align: center;
   font-weight: 700;
   margin: 10px 0;
   letter-spacing: 1px;
@@ -555,11 +553,6 @@ section {
   transition: 0.5s;
   color: #fff;
   background: #36a18b;
-}
-
-.contact .php-email-form button[type="submit"]:hover {
-  background: #e8f2ee;
-  color: #2b697a;
 }
 
 /*--------------------------------------------------------------
