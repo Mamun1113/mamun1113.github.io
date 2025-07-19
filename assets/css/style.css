@@ -286,11 +286,9 @@ section {
   border-radius: 8px;
   color: #262626;
 }
-
 #skills .container {
   flex-direction: column;
 }
-
 .skills-container {
   width: 100%;
   text-align: start;
