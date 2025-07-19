@@ -4,52 +4,66 @@
 <html lang="en">
 
 <head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HY44KELLN3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HY44KELLN3');
+</script>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Abdullah Al Mamun</title>
+  <meta name="description"
+    content="Portfolio of Abdullah Al Mamun - Software Developer, Low Code Expert, and AI/ML Enthusiast.">
+  <meta name="keywords" content="Abdullah Al Mamun, portfolio, software developer, ai ml, low code, mamun">
+  <meta name="author" content="Abdullah Al Mamun">
 
-  <!-- Favicons -->
-  <link href="assets/images/mamun1113_icon.png" rel="icon">
+  <!-- Open Graph Meta for Social Preview -->
+  <meta property="og:title" content="Abdullah Al Mamun - Portfolio">
+  <meta property="og:description" content="Explore the projects, skills, and publications of Mamun.">
+  <meta property="og:image" content="assets/images/home_image_1.webp">
+  <meta property="og:url" content="https://mamun1113.github.io/">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Abdullah Al Mamun - Portfolio">
+  <meta name="twitter:description" content="Explore the developer portfolio of Mamun.">
+  <meta name="twitter:image" content="assets/images/home_image_1.webp">
+
+  <title>Mamun</title>
+  <!-- Favicon -->
+  <link rel="preload" href="assets/images/home-image-1.png" as="image">
+  <link rel="icon" href="assets/images/home_image_1.webp">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato&family=Josefin+Sans&family=Open+Sans:wght@300;400;600;700&family=Quicksand:wght@300..700&family=Turret+Road:wght@200;300;400;500;700;800&display=swap"
+    rel="stylesheet">
 
-  <!-- extra CSS Files -->
+  <!-- CSS Libraries -->
   <link href="assets/extra/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="assets/extra/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/extra/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/extra/remixicon/remixicon.css" rel="stylesheet">
 
-  <!-- Main CSS File -->
+  <!-- Main CSS -->
   <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- extra JS Files -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/script.js"></script>
-
 </head>
 
 <body>
-
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
-
-      <div class="logo">
-        <h1><a href="#" class="top-link">MAMUN</a></h1>
-      </div>
-
+  <header id="header" class="fixed-top">
+    <div class="container">
       <nav class="navbar navbar-expand-lg">
-
-        <div class="container-fluid">
+        <div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <i class="navbar-toggler-icon"></i>
@@ -57,16 +71,13 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item home-nav active"><a class="nav-link" href="#">Home</a></li>
+              <li class="nav-item works-nav"><a class="nav-link" href="#works">Experience</a></li>
               <li class="nav-item education-nav"><a class="nav-link" href="#education">Education</a></li>
-              <li class="nav-item participation-nav"><a class="nav-link" href="#participation">Participation</a></li>
-              <li class="nav-item software-project-nav"><a class="nav-link" href="#software-project">Software
-                  Projects</a></li>
-              <li class="nav-item computer-skill-nav"><a class="nav-link" href="#computer-skill">Computer Skills</a>
-              </li>
-              <li class="nav-item achievement-nav"><a class="nav-link" href="#achievement">Achievement</a></li>
-              <li class="nav-item extra-nav"><a class="nav-link" href="#extra">Extra</a></li>
-              <li class="nav-item faq-nav"><a class="nav-link" href="#faq">FAQ</a></li>
-              <li class="nav-item contact-nav"><a class="nav-link" href="#contact">Contact</a></li>
+              <li class="nav-item skills-nav"><a class="nav-link" href="#skills">Skills</a></li>
+              <li class="nav-item software-project-nav"><a class="nav-link" href="#software-project">Projects</a></li>
+              <li class="nav-item publications-nav"><a class="nav-link" href="#publications">Publications</a></li>
+              <li class="nav-item hobbies-nav"><a class="nav-link" href="#hobbies">Hobby</a></li>
+              <li class="nav-item miscellaneous-nav"><a class="nav-link" href="#miscellaneous">Miscellaneous</a></li>
             </ul>
           </div>
         </div>
@@ -77,608 +88,639 @@
 
   <main id="main">
     <!-- ======= Home Section ======= -->
-    <section id="home" class="d-flex align-items-center">
-      <h5 class="tst"></h5>
+    <section id="home">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center">
-            <h2>Hi, I'm</h2>
-            <h1 class="full-name">Abdullah Al Mamun</h1>
-            <h2>Studying Bachelor of Science <br> in Computer Science & Engineering</h2>
-            <a href="" class="" target="_blank"></a>
+        <div class="home-left ">
+          <h3>Hi, I'm</h3>
+          <h2 style="color:#c5ee0e;">Abdullah Al Mamun</h2>
+          <h1 id="word-loop"></h1>
+        </div>
+
+        <div class="home-right">
+          <img loading="lazy" src="assets/images/home-image-1.png" alt="Mamun">
+        </div>
+      </div>
+    </section>
+    <!-- End Home Section -->
+
+    <!-- ======= Social Links Container ======= -->
+    <div class="container social-links-container">
+      <ul class="social-links">
+        <li>
+          <a href="https://www.linkedin.com/in/mamun1113/" class="linkedin" target="_blank" title="LinkedIn - Social">
+            <img loading="lazy" src="assets/images/linkedin.webp" alt="LinkedIn">
+          </a>
+        </li>
+
+        <li>
+          <a href="https://github.com/Mamun1113" class="github" target="_blank" title="GitHub - Projects">
+            <img loading="lazy" src="assets/images/github.webp" alt="GitHub">
+          </a>
+        </li>
+        <li>
+          <a href="https://leetcode.com/u/Mamun1113/" class="leetcode" target="_blank" title="LeetCode - Code">
+            <img loading="lazy" src="assets/images/leetcode.webp" alt="LeetCode">
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- End Social Links Container -->
+
+    <!-- =======  Section ======= -->
+    <section id="works">
+      <div class="container">
+        <div class="section-title">
+          <h2>WORK EXPERIENCE</h2>
+        </div>
+        <div class="works-container">
+          <div class="work-item">
+            <p>Developed and published cross-platform mobile applications using FlutterFlow, integrated with real-time
+              databases.</p>
           </div>
-          <div class="col-lg-2 order-1 order-lg-2 home-img">
-            <img src="assets/images/Mamun.png" alt="Abdullah Al Mamun">
+          <div class="work-item">
+            <p>Published production-grade apps to both Google Play Store and Apple App Store with optimized performance
+              and UI.</p>
           </div>
-          <div class="col-lg-5 order-3 order-lg-3 d-flex flex-column justify-content-center side-links">
-            <ul>
-              <li><a href="https://www.linkedin.com/in/mamun1113/" class="linkedin" target="_blank">Linked in <img
-                    src="assets/images/linkedin.png"></a></li>
-              <li><a href="https://github.com/Mamun1113" class="github" target="_blank">GitHub <img
-                    src="assets/images/github.png"></a></li>
-              <li><a href="https://itch.io/profile/mamun1113" class="itch-io" target="_blank">Itch <img
-                    src="assets/images/itch-io.png"></a></li>
-              <li><a href="https://play.google.com/store/apps/developer?id=Mamun1113" class="play-store"
-                  target="_blank">Play Store <img src="assets/images/google-play.png"></a></li>
-              <li><a href="https://www.youtube.com/@Mamun-1113/" class="youtube" target="_blank">Youtube <img
-                    src="assets/images/youtube.png"></a></li>
-            </ul>
+          <div class="work-item">
+            <p>Designed, built, and maintained responsive websites using WordPress, Elementor, and basic PHP for custom
+              functionalities.</p>
+          </div>
+          <div class="work-item">
+            <p>Created and managed relational and NoSQL databases, including MySQL and Firebase, ensuring data integrity
+              and scalability.</p>
+          </div>
+          <div class="work-item">
+            <p>Integrated third-party services and APIs using Webhooks and Cron Jobs for automation and real-time
+              interactions.</p>
+          </div>
+          <div class="work-item">
+            <p>Implemented analytics and tracking systems including Google Analytics to monitor performance and user
+              behavior.</p>
           </div>
         </div>
       </div>
     </section>
-    <!-- End Home section -->
 
-    <!-- ======= Education Section ======= -->
-    <section id="education" class="education">
+    <section id="education">
       <div class="container">
-
         <div class="section-title">
-          <h2>Educational Qualification</h2>
+          <h2>EDUCATION</h2>
         </div>
-
-        <div class="row">
-          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-            <div class="box">
-              <h6>Currently studying</h6>
-              <h3>BSc. in CSE</h3>
-              <p>
-                Student of 4<sup>th</sup> year 2<sup>nd</sup> semester
-                <br>2019 - to date
-                <br><b>Ahsanullah University of Science & Technology</b>
-                <br>Tejgaon, Dhaka
-              </p>
+    
+        <div class="flip-card-container">
+          <!-- AUST -->
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img loading="lazy" src="assets/images/education_aust_logo.webp" alt="AUST logo">
+                <h3>Bachelor of Science</h3>
+                <p>Ahsanullah University of Science and Technology<br>Tejgaon, Dhaka</p>
+              </div>
+              <div class="flip-card-back">
+                <p>Completed <b>B.Sc.</b> in <b>Computer Science and Engineering (CSE)</b></p>
+                <p>Received <b class="highlight-badge">Dean's List of Honor</b></p>
+              </div>
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-            <div class="box">
-              <h6>Completed</h6>
-              <h3>HSC</h3>
-              <p>
-                From Science with GPA <b>5.00 out of 5.00</b>
-                <br>Studied class 11 & 12 from 2016 to 2018
-                <br><b>Notre Dame College</b>
-                <br>Motijheel, Dhaka
-              </p>
+    
+          <!-- NDC -->
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img loading="lazy" src="assets/images/education_ndc_logo.webp" alt="NDC logo">
+                <h3>Higher Secondary Certificate</h3>
+                <p>Notre Dame College<br>Motijheel, Dhaka</p>
+              </div>
+              <div class="flip-card-back">
+                <p>Completed <b>HSC</b> from <b>Science</b></p>
+                <p>Received <b class="highlight-badge">Govt. Board Scholarship</b></p>
+              </div>
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-            <div class="box">
-              <h6>Completed</h6>
-              <h3>SSC</h3>
-              <p>
-                From Science with GPA <b>5.00 out of 5.00</b>
-                <br>Studied class 3 to 10 from 2008 to 2016
-                <br><b>Ideal School & College</b>
-                <br>Motijheel, Dhaka
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-            <div class="box">
-              <h6>Completed</h6>
-              <h3>JSC</h3>
-              <p>
-                Secured GPA <b>5.00 out of 5.00</b>
-                <br>Studied class 3 to 10 from 2008 to 2016
-                <br><b>Ideal School & College</b>
-                <br>Motijheel, Dhaka
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-            <div class="box">
-              <h6>Completed</h6>
-              <h3>PECE</h3>
-              <p>
-                Secured GPA <b>5.00 out of 5.00</b>
-                <br>Studied class 3 to 10 from 2008 to 2016
-                <br><b>Ideal School & College</b>
-                <br>Motijheel, Dhaka
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-            <div class="box">
-              <h6>Completed</h6>
-              <h3>Others</h3>
-              <p>
-                Studied preliminary classes to class 2
-                <br>From 2004 to 2007
-                <br><b>K.A.H Kinder Garten</b>
-                <br>Dhaka, Bangladesh
-              </p>
+    
+          <!-- ISC -->
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img loading="lazy" src="assets/images/education_isc_logo.webp" alt="ISC logo">
+                <h3>Secondary School Certificate</h3>
+                <p>Ideal School & College<br>Motijheel, Dhaka</p>
+              </div>
+              <div class="flip-card-back">
+                <p>Completed <b>SSC</b> from <b>Science</b></p>
+                <p>Received <b class="highlight-badge">Govt. Board Scholarship</b></p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- End education Section -->
+    
 
-    <!-- ======= Participation Section ======= -->
-    <section id="participation" class="participation">
+    <!-- ======= skillss Section ======= -->
+    <section id="skills">
       <div class="container">
 
         <div class="section-title">
-          <h2>Participation</h2>
+          <h2>MY SKILLS</h2>
+        </div>
+        <div class="skills-container">
+
+          <div class="icon-box">
+            <i class="ri-microsoft-line" style="color: #2b579a;"></i>
+            <p>Microsoft Office</p>
+          </div>
+          
+          <div class="icon-box">
+            <i class="ri-google-line" style="color: #007bff;"></i>
+            <p>Google Workspace</p>
+          </div>
+
+          <hr class="custom-hr-2">
+
+          <div class="icon-box">
+            <i class="ri-code-line" style="color: #00ff80;"></i>
+            <p>C language</p>
+          </div>
+          <div class="icon-box">
+            <i class="ri-code-line" style="color: #00ff80;"></i>
+            <p>C++ language</p>
+          </div>
+          <div class="icon-box">
+            <i class="ri-code-line" style="color: #00ff80;"></i>
+            <p>C# language</p>
+          </div>
+          <div class="icon-box">
+            <i class="ri-code-line" style="color: #00ff80;"></i>
+            <p>Java language</p>
+          </div>
+          <div class="icon-box">
+            <i class="ri-code-line" style="color: #00ff80;"></i>
+            <p>PHP language</p>
+          </div>
+          <div class="icon-box">
+            <i class="ri-code-line" style="color: #00ff80;"></i>
+            <p>Python language</p>
+          </div>
+
+          <hr class="custom-hr-2">
+
+          <div class="icon-box">
+            <i class="ri-code-s-slash-fill" style="color: #ffb700;"></i>
+            <p>HTML</p>
+          </div>
+          <div class="icon-box">
+            <i class="ri-code-s-slash-fill" style="color: #ffb700;"></i>
+            <p>CSS</p>
+          </div>
+          <div class="icon-box">
+            <i class="ri-code-s-slash-fill" style="color: #ffb700;"></i>
+            <p>Javascript</p>
+          </div>
+
+          <hr class="custom-hr-2">
+
+          <div class="icon-box">
+            <i class="ri-database-2-line" style="color: #ea00ff;"></i>
+            <p>Firebase</p>
+          </div>
+          <div class="icon-box">
+            <i class="ri-database-2-line" style="color: #ea00ff;"></i>
+            <p>MySQL</p>
+          </div>
+          <div class="icon-box">
+            <i class="ri-database-2-line" style="color: #ea00ff;"></i>
+            <p>MSSQL</p>
+          </div>
+
+          <hr class="custom-hr-2">
+
+          <div class="icon-box">
+            <i class="ri-terminal-window-fill" style="color: #ff2f00;"></i>
+            <p>ASP.NET</p>
+          </div>
+          <div class="icon-box">
+            <i class="ri-terminal-window-fill" style="color: #ff2f00;"></i>
+            <p>MVC</p>
+          </div>
+          <div class="icon-box">
+            <i class="ri-terminal-window-fill" style="color: #ff2f00;"></i>
+            <p>Java Swing</p>
+          </div>
+
+          <hr class="custom-hr-2">
+
+          <div style="width: 100%;">
+            <p>Also have expertise on: </p>
+          </div>
+          <div class="icon-box">
+            <i class="ri-git-branch-line" style="color: #1a2947;"></i>
+            <p>Git</p>
+          </div>
+          <div class="icon-box">
+            <i class="ri-github-line" style="color: #8250df;"></i>
+            <p>GitHub</p>
+          </div>
+          <div class="icon-box">
+            <i><img loading="lazy" src="assets/images/g-colab.webp"></i>
+            <p>Google Colab</p>
+          </div>
+          <div class="icon-box">
+            <i><img loading="lazy" src="assets/images/wordpress.webp"></i>
+            <p>WordPress</p>
+          </div>
+          <div class="icon-box">
+            <i><img loading="lazy" src="assets/images/flutterflow.webp"></i>
+            <p>FlutterFlow</p>
+          </div>
+          <div class="icon-box">
+            <i><img loading="lazy" src="assets/images/postman-icon.webp"></i>
+            <p>Postman</p>
+          </div>
+
+
+
         </div>
 
-        <div class="row">
-          <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
-            <div class="icon-box">
-              <div class="icon"><i class="ri-check-double-line"></i></div>
-              <h4>Programming Contest</h4>
-              <p><b>Participation: 2019-09-01</b><br>Intra AUST Programming Contest - Codeware 19. Organized by AUST.
-              </p>
-              <br>
-              <a href="assets/downloads/20190901 Intra AUST Programming Contest - Codeware 19.jpg" target="_blank">View
-                certificate</a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
-            <div class="icon-box">
-              <div class="icon"><i class="ri-check-double-line"></i></div>
-              <h4>Software Exhibition</h4>
-              <p><b>Participation: 2022-06-23</b><br>Intra AUST Software Exhibition - Codefiesta 22. Organized by AUST.
-              </p>
-              <br>
-              <a href="assets/downloads/20220623 Intra AUST Software Exhibition - Codefiesta 22.jpg"
-                target="_blank">View certificate</a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
-            <div class="icon-box">
-              <div class="icon"><i class="ri-check-double-line"></i></div>
-              <h4>Cyber Security Bootcamp</h4>
-              <p><b>Participation: 2022-07-08</b><br>Cyber security online bootcamp. Organized by Skillogic.</p>
-              <br>
-              <a href="assets/downloads/20220708 Cyber Security Bootcamp by Skillogic.jpg" target="_blank">View
-                certificate</a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
-            <div class="icon-box">
-              <div class="icon"><i class="ri-check-double-line"></i></div>
-              <h4>Programming Contest</h4>
-              <p><b>Participation: 2022-08-11</b><br>Intra AUST Programming Contest - Codeclash 21. Organized by AUST.
-              </p>
-              <br>
-              <a href="assets/downloads/20220811 Intra AUST Programming Contest - Codeclash 21.jpg" target="_blank">View
-                certificate</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
-            <div class="icon-box">
-              <div class="icon"><i class="ri-check-double-line"></i></div>
-              <h4>Cyber Security</h4>
-              <p><b>Participation: 2022-10-13</b><br>Cyber Security Awareness. Organized by BTRC & CCAF.</p>
-              <br>
-              <a href="assets/downloads/20221013 Cyber Security Awareness.jpg" target="_blank">View certificate</a>
-            </div>
-          </div>
-        </div>
       </div>
-    </section><!-- End participation Section -->
+    </section><!-- End skills Section -->
 
     <!-- ======= Software project Section ======= -->
-    <section id="software-project" class="software-project">
+    <section id="software-project">
       <div class="container">
 
         <!-- Self Practiced Software Projects -->
         <div class="section-title">
-          <h2>Self Practiced Software Projects</h2>
+          <h2>SOFTWARE PROJECTS</h2>
         </div>
 
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="card" style='background-image: url("assets/images/portfolio-website.png");'>
-              <div class="card-body">
-                <h3>Portfolio Website</h3>
-                <p>Personal portfolio website developed with HTML, CSS, JS</p>
-                <i>This website</i>
-              </div>
+        <div class="projects-container">
+          <div class="card" style='background-image: url("assets/images/portfolio-website.webp");'>
+            <div class="card-body">
+              <h3>Portfolio Website</h3>
+              <p>Learnings: <b>HTML, CSS, JS</b></p>
+              <p>Portfolio Website.</p>
+              <p style="padding: 5px;"></p>
+              <a href="https://mamun1113.github.io/" class="website" target="_blank"><i class="bi bi-globe"></i>
+                View website</a>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="card" style='background-image: url("assets/images/pong.png");'>
-              <div class="card-body">
-                <h3>Pong</h3>
-                <p>C# language based UNITY game development</p>
-                <a href="https://youtu.be/EuF5_4d3V5Y" class="youtube" target="_blank"><i class="bi bi-youtube"></i>
-                  Watch demo</a>
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="https://mamun1113.itch.io/pong" class="download" target="_blank"><i class="bi bi-download"></i>
-                  Download game</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <p></p>
-        <p></p>
-        <!-- Academic Software Projects -->
-        <div class="section-title">
-          <h2>Academic Software Projects</h2>
-        </div>
 
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="card" style='background-image: url("assets/images/car-mania.png");'>
-              <div class="card-body">
-                <h3>Car-Mania</h3>
-                <p>C, iGraphics based car game.</p>
-                <a href="https://youtu.be/o1QV_ZY6LzA" target="_blank"><i class="bi bi-youtube"></i> Watch demo</a>
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="https://github.com/Mamun1113/Car-Mania" target="_blank"><i class="bi bi-github"></i> View
-                  code</a>
-              </div>
+          <div class="card" style='background-image: url("assets/images/pong.webp");'>
+            <div class="card-body">
+              <h3>Pong</h3>
+              <p>Learnings: <b>C#, Unity2D</b></p>
+              <p>2D desktop game.</p>
+              <p style="padding: 5px;"></p>
+              <a href="https://youtu.be/EuF5_4d3V5Y" class="youtube" target="_blank"><i class="bi bi-youtube"></i>
+                Watch demo</a>
+              <a href="https://mamun1113.itch.io/pong" class="download" target="_blank"><i class="bi bi-download"></i>
+                Download game</a>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="card" style='background-image: url("assets/images/sm-tours.png");'>
-              <div class="card-body">
-                <h3>SM-Tours</h3>
-                <p>Java language based android application for tour management</p>
-                <a href="https://youtu.be/laZVAxx7D0M" class="youtube" target="_blank"><i class="bi bi-youtube"></i>
-                  Watch demo</a>
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="https://github.com/Mamun1113/SM-Tours" class="github" target="_blank"><i
-                    class="bi bi-github"></i> View code</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="card" style='background-image: url("assets/images/medimart.png");'>
-              <div class="card-body">
-                <h3>Medimart</h3>
-                <p>Java, Java Swing based desktop application for pharmacy management.</p>
-                <a href="https://youtu.be/H_bJ2zFkHp4" class="youtube" target="_blank"><i class="bi bi-youtube"></i>
-                  Watch demo</a>
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="https://github.com/Mamun1113/Medimart" class="github" target="_blank"><i
-                    class="bi bi-github"></i> View code</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="card" style='background-image: url("assets/images/nextgen-hospital-management-hub.png");'>
-              <div class="card-body">
-                <h3>NextGen-Hospital-Management-Hub</h3>
-                <p>Java, Java Swing based application for doctor's and patient's serial management.</p>
-                <a href="https://youtu.be/XpuZyGGBjrk" class="youtube" target="_blank"><i class="bi bi-youtube"></i>
-                  Watch demo</a>
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="https://github.com/Mamun1113/NextGen-Hospital-Management-Hub" class="github" target="_blank"><i
-                    class="bi bi-github"></i> View code</a>
-              </div>
-            </div>
-          </div>
-        </div>
 
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="card" style='background-image: url("assets/images/e-library.png");'>
-              <div class="card-body">
-                <h3>E-Library</h3>
-                <p>PHP based website development for online book sell.</p>
-                <i class="bi bi-youtube"></i> [will be updated soon]
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="#" class="github" target="_blank"><i class="bi bi-github"></i> View code</a>
-              </div>
+
+          <div class="card" style='background-image: url("assets/images/car-mania.webp");'>
+            <div class="card-body">
+              <h3>Car-Mania</h3>
+              <p>Learnings: <b>C, iGraphics</b></p>
+              <p>Car racing game.</p>
+              <p style="padding: 5px;"></p>
+              <a href="https://youtu.be/o1QV_ZY6LzA" target="_blank"><i class="bi bi-youtube"></i> Watch demo</a>
+              <a href="https://github.com/Mamun1113/Car-Mania" target="_blank"><i class="bi bi-github"></i> View
+                code</a>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="card" style='background-image: url("assets/images/alaska-express.png");'>
-              <div class="card-body">
-                <h3>AlaskaExpress</h3>
-                <p>Java, C#, MVC based web application for bus management.</p>
-                <i class="bi bi-youtube"></i> [will be updated soon]
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="https://github.com/Mamun1113/AlaskaExpress" class="github" target="_blank"><i
-                    class="bi bi-github"></i> View code</a>
-              </div>
+
+          <div class="card" style='background-image: url("assets/images/sm-tours.webp");'>
+            <div class="card-body">
+              <h3>SM-Tours</h3>
+              <p>Learnings: <b>Java, Firebase, Android Studio</b></p>
+              <p>Tour arrange and booking app.</p>
+              <p style="padding: 5px;"></p>
+              <a href="https://youtu.be/laZVAxx7D0M" class="youtube" target="_blank"><i class="bi bi-youtube"></i>
+                Watch demo</a>
+              <a href="https://github.com/Mamun1113/SM-Tours" class="github" target="_blank"><i
+                  class="bi bi-github"></i> View code</a>
             </div>
           </div>
+
+          <div class="card" style='background-image: url("assets/images/medimart.webp");'>
+            <div class="card-body">
+              <h3>Medimart</h3>
+              <p>Learnings: <b>Java, MSSQL, Java Swing</b></p>
+              <p>Medicine track software for a drug store.</p>
+              <p style="padding: 5px;"></p>
+              <a href="https://youtu.be/H_bJ2zFkHp4" class="youtube" target="_blank"><i class="bi bi-youtube"></i>
+                Watch demo</a>
+              <a href="https://github.com/Mamun1113/Medimart" class="github" target="_blank"><i
+                  class="bi bi-github"></i> View code</a>
+            </div>
+          </div>
+
+          <div class="card" style='background-image: url("assets/images/nextgen-hospital-management-hub.webp");'>
+            <div class="card-body">
+              <h3>NextGen-Hospital-Management</h3>
+              <p>Learnings: <b>Java, MSSQL, Java Swing</b></p>
+              <p>Doctor's appointment management software.</p>
+              <p style="padding: 5px;"></p>
+              <a href="https://youtu.be/XpuZyGGBjrk" class="youtube" target="_blank"><i class="bi bi-youtube"></i>
+                Watch demo</a>
+              <a href="https://github.com/Mamun1113/NextGen-Hospital-Management-Hub" class="github" target="_blank"><i
+                  class="bi bi-github"></i> View code</a>
+            </div>
+          </div>
+
+          <div class="card" style='background-image: url("assets/images/e-library.webp");'>
+            <div class="card-body">
+              <h3>E-Library</h3>
+              <p>Learnings: <b>Php, MySQL</b></p>
+              <p>Online book selling website.</p>
+              <p style="padding: 5px;"></p>
+              <a href="https://github.com/sohomsahaun/CSE-3100-e-library/" class="github" target="_blank"><i
+                  class="bi bi-github"></i> View code</a>
+            </div>
+          </div>
+
+          <div class="card" style='background-image: url("assets/images/alaska-express.webp");'>
+            <div class="card-body">
+              <h3>AlaskaExpress</h3>
+              <p>Learnings: <b>C#, SQL Server, MVC</b></p>
+              <p>Bus management web application.</p>
+              <p style="padding: 5px;"></p>
+              <a href="https://github.com/Mamun1113/AlaskaExpress" class="github" target="_blank"><i
+                  class="bi bi-github"></i> View code</a>
+            </div>
+          </div>
+
+          <div class="card" style='background-image: url("assets/images/mark-my-movie.webp");'>
+            <div class="card-body">
+              <h3>Mark My Movie</h3>
+              <p>Learnings: <b>Java, Android Studio</b></p>
+              <p>Movie bookmark app.</p>
+              <p style="padding: 5px;"></p>
+              <a href="https://mark-my-movie.uptodown.com/android" class="download" target="_blank"><i
+                  class="bi bi-download"></i>
+                Download apk
+              </a>
+            </div>
+          </div>
+
+          <div class="card" style='background-image: url("assets/images/stock-market-data-visualization.webp");'>
+            <div class="card-body">
+              <h3>Stock Market Data Visualization</h3>
+              <p>Learnings: <b>Python, React</b></p>
+              <p>Data visualization with react and python.</p>
+              <p style="padding: 5px;"></p>
+              <a href="https://github.com/Mamun1113/React-Python-MySQL-Data-Test" class="github" target="_blank"><i
+                  class="bi bi-github"></i> View code</a>
+            </div>
+          </div>
+
+          <div class="card" style='background-image: url("assets/images/color-movie.webp");'>
+            <div class="card-body">
+              <h3>Color Movie</h3>
+              <p>Learnings: <b>Python, DIP, CV, ML</b></p>
+              <p>Black and white movie colorizer.</p>
+              <p style="padding: 5px;"></p>
+              <a href="https://youtu.be/47sEN_ezAOY" class="youtube" target="_blank"><i class="bi bi-youtube"></i>
+                Watch demo</a>
+              <a href="https://github.com/Mamun1113/ComputerVision-ColorMovie" class="github" target="_blank"><i
+                  class="bi bi-github"></i> View code</a>
+            </div>
+          </div>
+
+          <div class="card" style='background-image: url("assets/images/auto-screen-lock.webp");'>
+            <div class="card-body">
+              <h3>Auto Screen Lock</h3>
+              <p>Learnings: <b>Python, DIP, CV, ML</b></p>
+              <p>Auto computer sleep in absence of user.</p>
+              <p style="padding: 5px;"></p>
+              <a href="https://youtu.be/Hosk_vqaszs" class="youtube" target="_blank"><i class="bi bi-youtube"></i>
+                Watch demo</a>
+              <a href="https://github.com/Mamun1113/ComputerVision-AutoScreenLock" class="github" target="_blank"><i
+                  class="bi bi-github"></i> View code</a>
+            </div>
+          </div>
+
+          <div class="card" style='background-image: url("assets/images/car-rush.webp");'>
+            <div class="card-body">
+              <h3>Car Rush</h3>
+              <p>Learnings: <b>ThreeJS</b></p>
+              <p>Car racing game.</p>
+              <p style="padding: 5px;"></p>
+              <a href="https://github.com/Mamun1113/Car-Rush" class="github" target="_blank"><i
+                  class="bi bi-github"></i> View code</a>
+            </div>
+          </div>
+
+          <div class="card" style='background-image: url("assets/images/bmi-calculator.webp");'>
+            <div class="card-body">
+              <h3>BMI Calculator</h3>
+              <p>Learnings: <b>Dart, Flutter, Android Studio</b></p>
+              <p>BMI calculation app.</p>
+              <p style="padding: 5px;"></p>
+              <a href="https://com-maxinmuf-bmicalculator.uptodown.com/android" class="download" target="_blank"><i
+                  class="bi bi-download"></i>
+                Download apk
+              </a>
+            </div>
+          </div>
+
+
+
         </div>
       </div>
     </section><!-- End Software project Section -->
 
-    <!-- ======= Computer-skills Section ======= -->
-    <section id="computer-skill" class="computer-skill">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Computer Skills</h2>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-            <div class="icon-box">
-              <i class="ri-file-word-2-line" style="color: #2b579a;"></i>
-              <h5>Microsoft Word</h5>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-            <div class="icon-box">
-              <i class="ri-file-excel-2-line" style="color: #217346;"></i>
-              <h5>Microsoft Excel</h5>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-            <div class="icon-box">
-              <i class="ri-file-ppt-2-line" style="color: #d24726;"></i>
-              <h5>Microsoft Powerpoint</h5>
-            </div>
-          </div>
-          <hr>
-          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-            <div class="icon-box">
-              <i class="ri-image-edit-line" style="color: #40D0FB;"></i>
-              <h5>Adobe Photoshop</h5>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-            <div class="icon-box">
-              <i class="ri-artboard-line" style="color: #F67B2B;"></i>
-              <h5>Adobe Illustrator</h5>
-            </div>
-          </div>
-          <hr>
-          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-            <div class="icon-box">
-              <i class="ri-code-line" style="color: #00ff80;"></i>
-              <h5>C language</h5>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-            <div class="icon-box">
-              <i class="ri-code-line" style="color: #00ff80;"></i>
-              <h5>C++ language</h5>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-            <div class="icon-box">
-              <i class="ri-code-line" style="color: #00ff80;"></i>
-              <h5>C# language (basic)</h5>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-            <div class="icon-box">
-              <i class="ri-code-line" style="color: #00ff80;"></i>
-              <h5>JAVA language</h5>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-            <div class="icon-box">
-              <i class="ri-code-line" style="color: #00ff80;"></i>
-              <h5>PHP language (basic)</h5>
-            </div>
-          </div>
-          <hr>
-          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-            <div class="icon-box">
-              <i class="ri-code-s-slash-fill" style="color: #ffb700;"></i>
-              <h5>HTML</h5>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-            <div class="icon-box">
-              <i class="ri-code-s-slash-fill" style="color: #ffb700;"></i>
-              <h5>CSS</h5>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-            <div class="icon-box">
-              <i class="ri-code-s-slash-fill" style="color: #ffb700;"></i>
-              <h5>Bootstrap</h5>
-            </div>
-          </div>
-          <hr>
-          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-            <div class="icon-box">
-              <i class="ri-database-2-line" style="color: #ea00ff;"></i>
-              <h5>MySQL</h5>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-            <div class="icon-box">
-              <i class="ri-database-2-line" style="color: #ea00ff;"></i>
-              <h5>MSSQL</h5>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-            <div class="icon-box">
-              <i class="ri-database-2-line" style="color: #ea00ff;"></i>
-              <h5>Firebase</h5>
-            </div>
-          </div>
-          <hr>
-          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-            <div class="icon-box">
-              <i class="ri-terminal-window-fill" style="color: #ff2f00;"></i>
-              <h5>MVC framework</h5>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-            <div class="icon-box">
-              <i class="ri-terminal-window-fill" style="color: #ff2f00;"></i>
-              <h5>JAVA Swing framework</h5>
-            </div>
-          </div>
-          <hr>
-        </div>
-      </div>
-    </section><!-- End computer-skill Section -->
-
-    <!-- ======= Achievement Section ======= -->
-    <section id="achievement" class="achievement">
+    <!-- ======= publications Section ======= -->
+    <section id="publications">
       <div class="container">
         <div class="section-title">
-          <h2>Achievements</h2>
+          <h2>RESEARCH & PUBLICATIONS</h2>
         </div>
 
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="box">
-              <h3>HSC scholarship</h3>
-              <p>General category - 2018 <br> Board of Intermediate and Secondary Education, Dhaka</p>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="box">
-              <h3>SSC scholarship</h3>
-              <p>General category - 2016 <br> Board of Intermediate and Secondary Education, Dhaka</p>
-            </div>
+        <div class="publications-container">
+          <div>
+            <p style="margin: 0;">Conference Paper</p>
+            <h5>A Deep Neural Network Approach with Pioneering Local Dataset to Recognize Doctor's Handwritten
+              Prescription in Bangladesh</h5>
+            <a href="https://ieeexplore.ieee.org/document/10499631">IEEE Xplore</a>
+
+            <hr class="custom-hr">
+
+
+            <p style="margin: 0;">Dataset</p>
+            <h5>Doctor’s Handwritten Prescription BD dataset</h5>
+            <a href="https://www.kaggle.com/datasets/mamun1113/doctors-handwritten-prescription-bd-dataset">Kaggle</a>
+
+            <hr class="custom-hr">
+
+
+            <p style="margin: 0;">Others</p>
+            <ul>
+              <li>
+                <h5>Extended Research on Benchmark for Research Theme Classification of
+                  Scholarly Documents.</h5>
+              </li>
+              <li>
+                <h5>Facial Emotion Recognition Using Machine Learning and Deep Learning
+                  Methods.</h5>
+              </li>
+            </ul>
+
           </div>
         </div>
 
       </div>
-    </section><!-- End Achievement Section -->
+    </section><!-- End publications Section -->
 
-    <!-- ======= Extra Section ======= -->
-    <section id="extra" class="extra">
+    <!-- ======= publications Section ======= -->
+    <section id="hobbies">
       <div class="container">
-
         <div class="section-title">
-          <h2>Extra</h2>
+          <h2>HOBBY</h2>
         </div>
 
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <div class="icon-box">
-              <div class="icon"><i class="ri-magic-line"></i></div>
-              <h4>Google IT Support Course</h4>
-              <p><b>Achievement: 2020-06-05</b>
-                <br>
-                <a href="https://coursera.org/share/127002d59d3602fbe1154d1bad40ea6a" target="_blank">Check
-                  certificate</a>
-              </p>
-              <p>Successfully completed the online, non-credit professional certificate course designed by Google.</p>
-              <ul>
-                This combine course includes 5 courses:
-                <li>Technical Support Fundamentals <a href="https://coursera.org/share/1de548c85b7afae60c48704dce5fa925"
-                    target="_blank">Check certificate</a></li>
-                <li>The Bits and Bytes of Computer Networking <a
-                    href="https://coursera.org/share/578af427d3c38cf45bc0f71ad7efeee3" target="_blank">Check
-                    certificate</a></li>
-                <li>Operating Systems and You: Becoming a Power User <a
-                    href="https://coursera.org/share/c2fadfe93d95d93fee1b5c68d98830ec" target="_blank">Check
-                    certificate</a></li>
-                <li>System Administration and IT Infrastructure Services <a
-                    href="https://coursera.org/share/b7645388698e8f7d24a86bb47b48e0f7" target="_blank">Check
-                    certificate</a></li>
-                <li>IT Security: Defense against the digital dark arts <a
-                    href="https://coursera.org/share/c319a5f3007eadd9aa25c301378b1d22" target="_blank">Check
-                    certificate</a></li>
-              </ul>
-            </div>
+        <div class="hobbies-container">
+          <div class="hobbies-div"><img loading="lazy" src="assets/images/hobbies-1.webp">
+
+            <p>Photography</p><a href="https://500px.com/p/mamun1113?view=photos">View more</a>
+
           </div>
+          <div class="hobbies-div"><img loading="lazy" src="assets/images/hobbies-2.webp">
+
+            <p>Gaming</p><a href="https://youtube.com/@mgk-s6m">View more</a>
+
+          </div>
+
+          <div class="hobbies-div"><img loading="lazy" src="assets/images/hobbies-3.webp">
+
+            <p>Blogging</p><a href="https://mamuntalks.blogspot.com/">View more</a>
+
+          </div>
+
+
+
         </div>
-    </section><!-- End Extra Section -->
-
-    <!-- ======= F.A.Q Section ======= -->
-    <section id="faq" class="faq">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Frequently Asked Questions</h2>
-        </div>
-
-        <div class="row faq-item">
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <i class="ri-question-line"></i>
-            <h5>Is this a company website?</h5>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <i class="ri-check-double-line"></i>
-            <h5>No. This is a personal portfolio website.</h5>
-          </div>
-        </div><!-- End F.A.Q Item-->
-
-        <div class="row faq-item">
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <i class="ri-question-line"></i>
-            <h5>What is the motto of this website?</h5>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <i class="ri-check-double-line"></i>
-            <h5>To let you know about my skills and experiences.</h5>
-          </div>
-        </div><!-- End F.A.Q Item-->
 
       </div>
-    </section><!-- End F.A.Q Section -->
+    </section><!-- End publications Section -->
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
+    <!-- ======= Miscellaneous Section ======= -->
+    <section id="miscellaneous">
       <div class="container">
 
         <div class="section-title">
-          <h2>Contact Me</h2>
+          <h2>MISCELLANEOUS</h2>
         </div>
+        <div class="tick-div">
+          <i class="ri-check-double-line"></i>
+          <h4>Completed</h4>
+        </div>
+        <br>
 
-        <div class="row">
+        <div class="miscellaneous-container">
+          <div>
+            <h4>Google IT Support Course</h4>
+            <b> 2020-06-05</b>
+            <a href="https://coursera.org/share/127002d59d3602fbe1154d1bad40ea6a" target="_blank">Check
+              certificate</a>
 
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <h3>Hey there !</h3>
-            <p>If you have any kind of query, suggestion or wanna say something- <br>feel free to contact.</p>
+
+            <ul>
+              This combined course includes 5 courses:
+              <li>Technical Support Fundamentals</li>
+              <li>The Bits and Bytes of Computer Networking</li>
+              <li>Operating Systems and You: Becoming a Power User</li>
+              <li>System Administration and IT Infrastructure Services</li>
+              <li>IT Security: Defense against the digital dark arts</li>
+            </ul>
           </div>
 
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <h4>Email</h4>
-            <p class="mail-text">mamun1113.notify@gmail.com</p>
+          <div>
+            <a href="https://www.coursera.org/account/accomplishments/professional-cert/EHM2QF9VA5PC"><img
+                src="assets/images/20200605 Google IT Support by Google.webp" /></a>
           </div>
-
         </div>
+        <br>
+        <div class="tick-div">
+          <i class="ri-check-double-line"></i>
+          <h4>Participated</h4>
+        </div>
+        <br>
+
+        <div class="miscellaneous-container-2">
+          <p><b>Intra AUST Programming Contest - Codeware 19</b>
+            <br>2019-09-01
+            <br><img width=auto height="200px"
+              src="assets\downloads\20190901 Intra AUST Programming Contest - Codeware 19.webp" />
+          </p>
+
+          <p><b>Cyber security online bootcamp - Skillogic</b>
+            <br>2022-07-08
+            <br><img width=auto height="200px"
+              src="assets\downloads\20220708 Cyber Security Bootcamp by Skillogic.jpg" />
+          </p>
+
+          <p><b>Intra AUST Programming Contest - Codeclash 21</b>
+            <br>2022-08-11
+            <br><img width=auto height="200px"
+              src="assets\downloads\20220811 Intra AUST Programming Contest - Codeclash 21.webp" />
+          </p>
+
+          <p><b>Cyber Security Awareness. - BTRC & CCAF</b>
+            <br>2022-10-13
+            <br><img width=auto height="200px" src="assets\downloads\20221013 Cyber Security Awareness.webp" />
+          </p>
+
+          <p><b>Intra AUST Software Exhibition - Codefiesta 22</b>
+            <br>2022-06-23
+            <br><img width=auto height="200px"
+              src="assets\downloads\20220623 Intra AUST Software Exhibition - Codefiesta 22.webp" />
+          </p>
+        </div>
+        <br>
+        <div class="tick-div">
+          <i class="ri-check-double-line"></i>
+          <h4>Co-Organized</h4>
+        </div> <br>
+        <div class="miscellaneous-container-3">
+          <p><b>Intra AUST Software Exhibition - Codefiesta 22. Organized by AUST.</b>
+            <br>2022-06-23
+
+          </p>
+        </div>
+
       </div>
-    </section><!-- End Contact Section -->
+    </section><!-- End miscellaneous Section -->
+
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
-      <div class="row d-flex align-items-center">
-        <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 text-lg-left text-center">
-          <div class="copyright">
-            &copy; Copyright <strong>Mamun1113</strong>. All Rights Reserved
-          </div>
-        </div>
-        <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12 text-lg-right text-center">
-          <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
-            <a class="scrollto" href="#home">Home</a>
-            <a class="scrollto" href="#education">Education</a>
-            <a class="scrollto" href="#participation">Participation</a>
-            <a class="scrollto" href="#software-project">Software Projects</a>
-            <a class="scrollto" href="#computer-skill">Computer Skills</a>
-            <a class="scrollto" href="#achievement">Achievement</a>
-            <a class="scrollto" href="#extra">Extra</a>
-            <a class="scrollto" href="#faq">FAQ</a>
-            <a class="scrollto" href="#contact">Contact</a>
-          </nav>
-        </div>
+      <div class="copyright">
+        &copy; Copyright <strong>Mamun</strong>. All Rights Reserved
+      </div>
+      <div class="footer-menu">
+        <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
+          <a class="scrollto" href="#home">Home</a>
+          <a class="scrollto" href="#works">Experience</a>
+          <a class="scrollto" href="#education">Education</a>
+          <a class="scrollto" href="#skills">Skills</a>
+          <a class="scrollto" href="#software-project">Projects</a>
+          <a class="scrollto" href="#publications">Publications</a>
+          <a class="scrollto" href="#hobbies">Hobby</a>
+          <a class="scrollto" href="#miscellaneous">Miscellaneous</a>
+        </nav>
       </div>
     </div>
   </footer><!-- End Footer -->
 
-  <!-- extra JS Files -->
-  <script src="assets/extra/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="https://smtpjs.com/v3/smtp.js"></script>
-
   <!-- Main JS File -->
   <script src="assets/js/script.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@3/tsparticles.bundle.min.js"></script>
 </body>
 
 </html>
