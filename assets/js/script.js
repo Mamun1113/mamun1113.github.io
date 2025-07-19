@@ -28,11 +28,9 @@ if (wordLoopDiv) {
   wordLoopDiv.textContent = words[currentIndex];
   wordLoopDiv.classList.add("show"); // Initial fade-in
 }
-
 // Function to cycle words
 function showNextWord() {
   if (!wordLoopDiv) return;
-
   wordLoopDiv.classList.remove("show");
 
   setTimeout(() => {
